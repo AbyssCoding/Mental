@@ -17,3 +17,4 @@ I would highly recommend using GitHub Desktop
 3. Please explore others' work, but do not edit it.
 4. Please comment on issues and feedback in the Issues tab feature.
 5. Please be proffesional. This is an environment which calls for this.
+6. Please use the Discussions tab. This Repo is connected to everyone on the project, so that's an excellent way of communication.
