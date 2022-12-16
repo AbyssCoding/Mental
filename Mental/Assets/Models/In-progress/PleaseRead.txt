@@ -1,0 +1,4 @@
+If using Blender, it's best to directly import the .blend object directly, as this will keep all the animations intact.
+However, you will need to import the textures separately, as Blender doesn't export them with the model apparently.
+Also, please upload a slightly darkened version of every texture for the anime shader
+Thanks!
