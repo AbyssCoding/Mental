@@ -2,7 +2,7 @@
 IckBock Studios on GitHub! If there is anyone who needs to join, please let me know
 ##
 ##
-# Initial Setup for Git, GitHub, and Unity
+# Initial Setup for GitHub and Unity
 I would highly recommend using GitHub Desktop
 1. Watch this [video](https://www.youtube.com/watch?v=tRZGeaHPoaw) and this [video](https://www.youtube.com/watch?v=qpXxcvS-g3g), as they explain basic setup.
 2. Go to where all of your project files are stored. Create an empty file within this folder. This is now your private repository. 
