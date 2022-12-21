@@ -30,6 +30,9 @@ public class ThirdPersonMovement : MonoBehaviour
     float turnSmooothVelocity;
 
     public float radius;
+    public float maxRadius;
+    public float minRadius;
+    public float zoomRate;
 
 
     Vector3 Velocity;
@@ -37,13 +40,31 @@ public class ThirdPersonMovement : MonoBehaviour
     void Start()
     {
         stamina = 10;
+        radius = maxRadius/2;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        rig.m_Orbits[0].m_Radius = radius;
+        rig.m_Orbits[1].m_Radius = radius;
+        rig.m_Orbits[2].m_Radius = radius;
+        rig.m_Orbits[0].m_Height = radius;
+        rig.m_Orbits[2].m_Height = -1f * radius;
+
+        radius -= zoomRate * Input.mouseScrollDelta.y;
+
+        if(radius > maxRadius)
+        {
+            radius = maxRadius;
+        }
+        if(radius < minRadius)
+        {
+            radius = minRadius;
+        }
+
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDist, groundMask);
 
         if(isGrounded && Velocity.y < 0)
