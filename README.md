@@ -8,8 +8,9 @@ I would highly recommend using GitHub Desktop
 2. Go to where all of your project files are stored. Create an empty file within this folder. This is now your private repository. 
 3. Fetch this Repo into the folder.
 4. Within Unity Hub, click "Open", then navigate to the file named "Mental" within the newly imported repository. This contains everything a Unity project needs to function.
-5. Import Cinemachine asset if it's not already there (as if you don't have it, Unity will give you all sorts of errors) in  Window > Package Manager (All assets) > Cinemeachine.
-6.  All set! Everything should be working perfectly. Please contact me in case of an issue.
+5. Make sure you navigate to the Scenes folder in assets then open Main Scene
+6. Import Cinemachine asset if it's not already there (as if you don't have it, Unity will give you all sorts of errors) in  Window > Package Manager (All assets) > Cinemeachine.
+7.  All set! Everything should be working perfectly. Please contact me in case of an issue.
 
 ##
 ##
